@@ -7,5 +7,8 @@ attr_reader :title, :backers
     @backers = []
   end
 
+  def back_project(project)
+    @backers << project
+  end
 
 end
